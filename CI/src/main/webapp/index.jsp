@@ -10,11 +10,19 @@
     <body>
         <%@ page import="se.seb.dde.CI.*" %>
         <h1>Students</h1>
-    	<div><%=new Student1().getName()%></div>
-    	<div><%=new Student1().getIsDoing()%></div>
-    	<div><%=new Student2().getName()%></div>
-    	<div><%=new Student2().getIsDoing()%></div>
-    	<div><%=new Student3().getName()%></div>
-    	<div><%=new Student3().getIsDoing()%></div>
+        <table>
+    	<tr>
+    		<td><%=new Student1().getName()%></td>
+    		<td><%=new Student1().getIsDoing()%></td>
+    	</tr>
+    	<tr>
+    		<td><%=new Student2().getName()%></td>
+    		<td><%=new Student2().getIsDoing()%></td>
+    	</tr>
+    	<tr>
+    		<td><%=new Student3().getName()%></td>
+    		<td><%=new Student3().getIsDoing()%></td>
+    		</tr>
+    	</table>
     </body>
 </html>
