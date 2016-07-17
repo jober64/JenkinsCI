@@ -6,11 +6,11 @@ package se.seb.dde.CI;
 public class Student2 {
 	
 	public String getName() {
-		return "jober";
+		return "";
 	}
 	
 	public String getIsDoing() {
-		return "coding";
+		return "";
 	}
 
 }
