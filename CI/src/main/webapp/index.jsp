@@ -11,18 +11,22 @@
         <%@ page import="se.seb.dde.CI.*" %>
         <h1>Students</h1>
         <table>
-    	<tr>
+    	  <tr>
+    		<th>Name</th>
+    		<th>Is doing</th>
+    	  </tr>
+    	  <tr>
     		<td><%=new Student1().getName()%></td>
     		<td><%=new Student1().getIsDoing()%></td>
-    	</tr>
-    	<tr>
+    	  </tr>
+    	  <tr>
     		<td><%=new Student2().getName()%></td>
     		<td><%=new Student2().getIsDoing()%></td>
-    	</tr>
-    	<tr>
+    	  </tr>
+    	  <tr>
     		<td><%=new Student3().getName()%></td>
     		<td><%=new Student3().getIsDoing()%></td>
-    		</tr>
+    	  </tr>
     	</table>
     </body>
 </html>
