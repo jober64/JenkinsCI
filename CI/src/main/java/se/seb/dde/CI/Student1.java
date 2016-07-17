@@ -5,11 +5,11 @@ package se.seb.dde.CI;
 
 public class Student1 {
 	
-	public String getName() {
+	public static String getName() {
 		return "jober";
 	}
 	
-	public String getIsDoing() {
+	public static String getIsDoing() {
 		return "coding";
 	}
 

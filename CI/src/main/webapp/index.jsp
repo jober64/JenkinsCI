@@ -16,16 +16,16 @@
     		<th>Is doing</th>
     	  </tr>
     	  <tr>
-    		<td><%=new Student1().getName()%></td>
-    		<td><%=new Student1().getIsDoing()%></td>
+    		<td><%new Student1().getName();%></td>
+    		<td><%new Student1().getIsDoing();%></td>
     	  </tr>
     	  <tr>
-    		<td><%=new Student2().getName()%></td>
-    		<td><%=new Student2().getIsDoing()%></td>
+    		<td><%new Student2().getName();%></td>
+    		<td><%new Student2().getIsDoing();%></td>
     	  </tr>
     	  <tr>
-    		<td><%=new Student3().getName()%></td>
-    		<td><%=new Student3().getIsDoing()%></td>
+    		<td><%new Student3().getName();%></td>
+    		<td><%new Student3().getIsDoing();%></td>
     	  </tr>
     	</table>
     </body>
