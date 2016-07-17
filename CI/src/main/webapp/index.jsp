@@ -8,6 +8,13 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello Jenkins! </h1>
+        <%@ page import="se.seb.dde.CI.*" %>
+        <h1>Students</h1>
+    	<div><%=new Student1().getName()%></div>
+    	<div><%=new Student1().getIsDoing()%></div>
+    	<div><%=new Student2().getName()%></div>
+    	<div><%=new Student2().getIsDoing()%></div>
+    	<div><%=new Student3().getName()%></div>
+    	<div><%=new Student3().getIsDoing()%></div>
     </body>
 </html>
